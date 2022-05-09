@@ -32,7 +32,35 @@ span {
 }
 
 #principal {
-    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.postado{
+    color: black;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#noticias {
+    width: 660px;
+    float: left;
+}
+
+#menu-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    padding: 20px;
+    background: #2a7fa6;
+    text-align: center;
 }
 
 /* Menu */
@@ -42,16 +70,16 @@ span {
     font-size: 1.5em;
 }
 
-a {
+.link-menu {
     text-decoration: none;
 }
 
-a:visited, a:link {
+.link-menu:visited, .link-menu:link {
     color: #fff;
     padding: 8px 12px;
 }
 
-a:hover {
+.link-menu:hover {
     background: #106085;
 }
 
