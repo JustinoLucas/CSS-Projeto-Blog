@@ -9,7 +9,27 @@ body {
     background: #eeeeee;
 }
 
-/* Layout */
+/* Layout Universal */
+
+h1 {
+    color: rgb(42, 42, 42);
+}
+
+h2 {
+    color: #1e6180;
+}
+
+h3 {
+    color: #0b2531;
+    background: #82b1c7;
+    padding: 5px;
+}
+
+span {
+    color: white;
+}
+
+/* Layout Principal */
 
 #cabecalho {
     background: #2a7fa6;
@@ -23,21 +43,18 @@ body {
     font-family: 'Bebas Neue';
 }
 
-h1 {
-    color: rgb(42, 42, 42);
-}
-
-span {
-    color: white;
-}
-
 #principal {
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
-.postado{
+.data-postado{
+    display: block;
     color: black;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .postagem {
@@ -51,6 +68,17 @@ span {
     float: left;
 }
 
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.noticia-lateral {
+    font-size: 0.9em;
+    padding: 5px;
+}
+
 #menu-lateral {
     width: 240px;
     float: right;
@@ -61,25 +89,49 @@ span {
     padding: 20px;
     background: #2a7fa6;
     text-align: center;
+    color: white;
 }
-
-/* Menu */
 
 #menu {
     padding: 10px;
     font-size: 1.5em;
 }
 
-.link-menu {
+/* Links */
+
+
+a {
     text-decoration: none;
 }
 
-.link-menu:visited, .link-menu:link {
+a:visited, a:link {
+    color: #106085;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menu a:visited, #menu a:link {
     color: #fff;
     padding: 8px 12px;
 }
 
-.link-menu:hover {
+#menu a:hover {
     background: #106085;
+}
+
+#menuzinho a {
+    display: block;
+}
+
+#menuzinho a:visited, #menuzinho a:link {
+    color: #1e6180;
+    padding: 8px 12px;
+}
+
+#menuzinho a:hover {
+    background: #106085;
+    color: white;
 }
 
